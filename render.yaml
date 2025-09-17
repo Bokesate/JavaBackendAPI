@@ -1,7 +1,7 @@
 services:
   - type: web
     name: springboot-demo
-    env: java
+    env: other
     plan: free
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
