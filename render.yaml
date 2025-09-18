@@ -3,4 +3,6 @@ services:
     name: springboot-demo
     env: docker
     plan: free
+    region: singapore  # or oregon/dublin, choose closest
+    dockerfilePath: ./Dockerfile
     autoDeploy: true
